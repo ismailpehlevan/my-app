@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxSpinnerModule } from 'ngx-spinner';
-import { IgxButtonModule } from 'igniteui-angular'
+import { IgxButtonModule } from 'igniteui-angular';
 import { ToastrModule } from 'ngx-toastr';
+import { NullComponent } from './null/null.component';
 
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    NullComponent,
+   ],
   imports: [
     BrowserModule,
     CommonModule,

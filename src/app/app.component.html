@@ -325,12 +325,18 @@
     </a>
 </div>
 
-<div class="row">
-    <div class="col-3"><button igxButton="flat">Düz buton1</button></div>
-    <div class="col-3"><button igxButton="flat">Düz buton2</button></div>
-    <div class="col-3"><button igxButton="flat">Düz buton3</button></div>
-    <div class="col-3"><button igxButton="flat">Düz buton4</button></div>
+<div class="row container-fluid">
+    <div class="col-3"><button igxButton="flat" routerLink="home">Home</button></div>
+    <div class="col-3"><button igxButton="flat" routerLink="user">User</button>
+    <ul>
+      <li><button igxButton="flat" [routerLink]="['user',5,'detail']">Detail</button></li>
+
+      <li><button igxButton="flat" [routerLink]="['user',5,'role']">Role</button></li>
+      <li><button igxButton="raised">IGX 2 BUTTON</button></li>
+    </ul>
+    </div>
 </div>
+
 <div class="content" role="main">
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
@@ -353,17 +359,6 @@
     </svg>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
