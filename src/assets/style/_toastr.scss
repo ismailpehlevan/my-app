@@ -1,0 +1,25 @@
+#toast-container > div {
+  opacity: 1;
+  width: 600px;
+}
+
+.toast {
+  font-size: initial !important;
+  border:initial !important;
+  backdrop-filter: blur(0) !important;
+}
+.toast-success {
+  background-color: greenyellow;
+}
+
+.toast-error {
+  background-color: red;
+}
+
+.toast-info {
+  background-color: cyan;
+}
+
+.toast-warning {
+  background-color: darkmagenta;
+}
