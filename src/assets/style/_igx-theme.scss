@@ -1,0 +1,19 @@
+@import "~igniteui-angular/lib/core/styles/themes/index";
+// Uncomment the following lines if you want to add a custom palette:
+// $primary: #731963 !default;
+// $secondary: #ce5712 !default;
+// $app-palette: igx-palette($primary, $secondary);
+
+/* autoprefixer grid: on */
+
+$custom_palette : igx-palette(
+
+  $error:rgb(206, 40, 40),
+  $secondary: rgb(53, 149, 149),
+  $primary:rgb(216, 147, 36)
+
+
+);
+
+@include igx-core();
+@include igx-theme($custom-palette);

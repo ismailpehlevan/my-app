@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxSpinnerModule } from 'ngx-spinner';
-
+import { IgxButtonModule } from 'igniteui-angular'
 import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -27,6 +27,7 @@ import { ToastrModule } from 'ngx-toastr';
       positionClass: "toast-bottom-left"
     }),
     NgxSpinnerModule,
+    IgxButtonModule,
     AppRoutingModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
