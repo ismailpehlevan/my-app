@@ -12,13 +12,6 @@ export class UserDetailComponent implements OnInit {
   constructor(private activatedRoute:ActivatedRoute) { }
 
   ngOnInit() {
-    if (this.activatedRoute.params!=null) {
-      this.activatedRoute.params.subscribe(param=>{
-        alert("NULL AMK");
-      });
-    } else {
-        alert("NOT NULL FULL BRO")
-    }
 
 
   }

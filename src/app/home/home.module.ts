@@ -7,7 +7,6 @@ import { IgxButtonModule } from 'igniteui-angular';
 const routes: Routes = [
   {
     path:"home",
-
   }
 ];
 
